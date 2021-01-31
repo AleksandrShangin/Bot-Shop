@@ -9,19 +9,23 @@
 /* Begin PBXBuildFile section */
 		FAA41ACE25C6A2280003F867 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA41ACD25C6A2280003F867 /* AppDelegate.swift */; };
 		FAA41AD025C6A2280003F867 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA41ACF25C6A2280003F867 /* SceneDelegate.swift */; };
-		FAA41AD225C6A2280003F867 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA41AD125C6A2280003F867 /* ViewController.swift */; };
+		FAA41AD225C6A2280003F867 /* NewOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA41AD125C6A2280003F867 /* NewOrderViewController.swift */; };
 		FAA41AD725C6A22F0003F867 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA41AD625C6A22F0003F867 /* Assets.xcassets */; };
 		FAA41ADA25C6A22F0003F867 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA41AD825C6A22F0003F867 /* LaunchScreen.storyboard */; };
+		FAA41AE625C6B7480003F867 /* PastOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA41AE525C6B7480003F867 /* PastOrderViewController.swift */; };
+		FAA41AE925C6B8030003F867 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA41AE825C6B8030003F867 /* TabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FAA41ACA25C6A2280003F867 /* Bot-Shop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bot-Shop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA41ACD25C6A2280003F867 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAA41ACF25C6A2280003F867 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FAA41AD125C6A2280003F867 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAA41AD125C6A2280003F867 /* NewOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewOrderViewController.swift; sourceTree = "<group>"; };
 		FAA41AD625C6A22F0003F867 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAA41AD925C6A22F0003F867 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAA41ADB25C6A22F0003F867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA41AE525C6B7480003F867 /* PastOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastOrderViewController.swift; sourceTree = "<group>"; };
+		FAA41AE825C6B8030003F867 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +60,9 @@
 			children = (
 				FAA41ACD25C6A2280003F867 /* AppDelegate.swift */,
 				FAA41ACF25C6A2280003F867 /* SceneDelegate.swift */,
-				FAA41AD125C6A2280003F867 /* ViewController.swift */,
+				FAA41AD125C6A2280003F867 /* NewOrderViewController.swift */,
+				FAA41AE525C6B7480003F867 /* PastOrderViewController.swift */,
+				FAA41AE825C6B8030003F867 /* TabBarController.swift */,
 				FAA41AD625C6A22F0003F867 /* Assets.xcassets */,
 				FAA41AD825C6A22F0003F867 /* LaunchScreen.storyboard */,
 				FAA41ADB25C6A22F0003F867 /* Info.plist */,
@@ -133,9 +139,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAA41AD225C6A2280003F867 /* ViewController.swift in Sources */,
+				FAA41AD225C6A2280003F867 /* NewOrderViewController.swift in Sources */,
 				FAA41ACE25C6A2280003F867 /* AppDelegate.swift in Sources */,
 				FAA41AD025C6A2280003F867 /* SceneDelegate.swift in Sources */,
+				FAA41AE925C6B8030003F867 /* TabBarController.swift in Sources */,
+				FAA41AE625C6B7480003F867 /* PastOrderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
