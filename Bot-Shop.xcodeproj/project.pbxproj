@@ -14,6 +14,7 @@
 		FAA41ADA25C6A22F0003F867 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA41AD825C6A22F0003F867 /* LaunchScreen.storyboard */; };
 		FAA41AE625C6B7480003F867 /* PastOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA41AE525C6B7480003F867 /* PastOrderViewController.swift */; };
 		FAA41AE925C6B8030003F867 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA41AE825C6B8030003F867 /* TabBarController.swift */; };
+		FAA41AEC25C6D2590003F867 /* NewItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA41AEB25C6D2590003F867 /* NewItemCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		FAA41ADB25C6A22F0003F867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAA41AE525C6B7480003F867 /* PastOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastOrderViewController.swift; sourceTree = "<group>"; };
 		FAA41AE825C6B8030003F867 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		FAA41AEB25C6D2590003F867 /* NewItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				FAA41AD125C6A2280003F867 /* NewOrderViewController.swift */,
 				FAA41AE525C6B7480003F867 /* PastOrderViewController.swift */,
 				FAA41AE825C6B8030003F867 /* TabBarController.swift */,
+				FAA41AEB25C6D2590003F867 /* NewItemCell.swift */,
 				FAA41AD625C6A22F0003F867 /* Assets.xcassets */,
 				FAA41AD825C6A22F0003F867 /* LaunchScreen.storyboard */,
 				FAA41ADB25C6A22F0003F867 /* Info.plist */,
@@ -144,6 +147,7 @@
 				FAA41AD025C6A2280003F867 /* SceneDelegate.swift in Sources */,
 				FAA41AE925C6B8030003F867 /* TabBarController.swift in Sources */,
 				FAA41AE625C6B7480003F867 /* PastOrderViewController.swift in Sources */,
+				FAA41AEC25C6D2590003F867 /* NewItemCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
