@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA6DB91F25C7FDB500CC135C /* PastOrderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6DB91E25C7FDB500CC135C /* PastOrderCell.swift */; };
 		FAA41ACE25C6A2280003F867 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA41ACD25C6A2280003F867 /* AppDelegate.swift */; };
 		FAA41AD025C6A2280003F867 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA41ACF25C6A2280003F867 /* SceneDelegate.swift */; };
 		FAA41AD225C6A2280003F867 /* NewOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA41AD125C6A2280003F867 /* NewOrderViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA6DB91E25C7FDB500CC135C /* PastOrderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastOrderCell.swift; sourceTree = "<group>"; };
 		FAA41ACA25C6A2280003F867 /* Bot-Shop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bot-Shop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA41ACD25C6A2280003F867 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAA41ACF25C6A2280003F867 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				FAA41AE525C6B7480003F867 /* PastOrderViewController.swift */,
 				FAA41AE825C6B8030003F867 /* TabBarController.swift */,
 				FAA41AEB25C6D2590003F867 /* NewItemCell.swift */,
+				FA6DB91E25C7FDB500CC135C /* PastOrderCell.swift */,
 				FAA41AEE25C716440003F867 /* Item.swift */,
 				FAA41AD625C6A22F0003F867 /* Assets.xcassets */,
 				FAA41AD825C6A22F0003F867 /* LaunchScreen.storyboard */,
@@ -147,6 +150,7 @@
 			files = (
 				FAA41AD225C6A2280003F867 /* NewOrderViewController.swift in Sources */,
 				FAA41ACE25C6A2280003F867 /* AppDelegate.swift in Sources */,
+				FA6DB91F25C7FDB500CC135C /* PastOrderCell.swift in Sources */,
 				FAA41AD025C6A2280003F867 /* SceneDelegate.swift in Sources */,
 				FAA41AE925C6B8030003F867 /* TabBarController.swift in Sources */,
 				FAA41AEF25C716450003F867 /* Item.swift in Sources */,
