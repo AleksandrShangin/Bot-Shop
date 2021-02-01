@@ -1,7 +1,9 @@
+import Foundation
 import UIKit
 
 
-struct Item {
+
+struct Order {
     var title: String
     var image: UIImage
 }

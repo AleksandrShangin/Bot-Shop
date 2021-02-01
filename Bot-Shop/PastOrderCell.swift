@@ -34,6 +34,16 @@ class PastOrderCell: UITableViewCell {
         setup()
     }
     
+    func setCellContents(item: Item) {
+        itemImage.image = item.image
+        title.text = item.title
+    }
+    
+    func setBoxContents(box: Order) {
+        textLabel?.text = box.title
+        imageView?.image = box.image
+    }
+    
     func setup() {
         contentView.addSubview(stackView)
         
